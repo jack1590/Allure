@@ -1,0 +1,69 @@
+.about {
+    padding: 40px;
+    background-color: white;
+    color: black;
+  }
+  
+  .about h2 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .about-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 2px solid gold;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .about-image {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .image-container:hover::before {
+    opacity: 1;
+  }
+  
