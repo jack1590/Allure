@@ -1,23 +1,26 @@
 import React from 'react';
-import logo from '../assets/logo.jpeg';
 import './Header.css';
+import logo from '../assets/logo.jpeg'; // Ensure the path to your logo is correct
 
 const Header = () => {
-  return (
-    <header className="header">
-      <img src={logo} alt="Allure Logo" className="logo" />
-      <nav>
-        <ul>
-          <li><a href="#about">Sobre Nosotros</a></li>
-          <li><a href="#fashion">Moda</a></li>
-          <li><a href="#gastronomy">Gastronomía</a></li>
-          <li><a href="#entertainment">Entretenimiento</a></li>
-          <li><a href="#location">Ubicación</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
+    return (
+        <header className="header">
+            <div className="header-left">
+                <img src={logo} alt="Allure Event Logo" /> {/* Add the logo */}
+                <h1>Allure Event</h1>
+            </div>
+            <nav className="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#fashion">Fashion</a></li>
+                    <li><a href="#gastronomy">Gastronomy</a></li>
+                    <li><a href="#entertainment">Entertainment</a></li>
+                    <li><a href="#location">Press Kit</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    );
+};
 
 export default Header;

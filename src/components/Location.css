@@ -2,9 +2,27 @@
     padding: 40px;
     background-color: white;
     color: black;
-  }
-  
-  .location h2 {
+}
+
+.location h2 {
     color: gold;
-  }
-  
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.location-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.location p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

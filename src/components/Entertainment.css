@@ -1,10 +1,28 @@
 .entertainment {
     padding: 40px;
-    background-color: black;
-    color: white;
-  }
-  
-  .entertainment h2 {
+    background-color: white;
+    color: black;
+}
+
+.entertainment h2 {
     color: gold;
-  }
-  
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.entertainment-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.entertainment p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
