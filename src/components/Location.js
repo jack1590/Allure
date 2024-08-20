@@ -6,7 +6,27 @@ const Location = () => {
         <section id="location" className="location">
             <h2>Press Kit</h2>
             <div className="location-content">
-                <p>El Press Kit de la Feria Allure es una herramienta esencial para los medios de comunicación y socios estratégicos. Incluye un comunicado de prensa detallado sobre el evento, fotografías y videos de alta calidad que capturan la esencia de la feria, y un souvenir exclusivo que refleja el lujo y la sofisticación de Allure. Además, proporciona información clave sobre los expositores, el programa de actividades y los beneficios exclusivos para los asistentes. Este kit se entrega en un elegante sobre de manila, asegurando que cada elemento transmita la esencia premium del evento.</p>
+                <p>La Feria Allure es el evento de lujo más esperado del año, que reúne moda, entretenimiento y gastronomía en un entorno exclusivo en el Salón Santa Fe del Hotel Bogotá Plaza. Con la asistencia de importantes figuras del lujo, busca posicionarse como un referente en la industria.</p>
+                <p>Objetivo del Evento:</p>
+                <p>Reunir las principales marcas y diseñadores en una celebración que destaque el arte, la moda y la cultura del lujo, atrayendo a un público selecto de más de 100 invitados, incluyendo prensa e influencers de gran impacto.</p>
+                <p>Aspectos Destacados:</p>
+                <ul>
+                    <li>Asistirán más de 100 invitados</li>
+                    <li>Pilar Castaño invitada especial </li>
+                    <li>Helena Fadul</li>
+                    <li>Laura Tobón</li>
+                    <li>Sara Restrepo</li>
+                    <li>Luisa Fernanda W</li>
+                    <li>Nicole Ravachi</li>
+                    <li>Vanessa Dominguez</li>
+                </ul>
+                <p>Información Logística Adicional:</p>
+                <ul>
+                    <li>Fecha: 26 de junio de 2025</li>
+                    <li>Lugar: Salón Santa Fe, Hotel Bogotá Plaza</li>
+                    <li>Hora: 7:00 p.m.</li>
+                    <li>Estacionamiento: Valet Parking disponible.</li>
+                </ul>
             </div>
         </section>
     );
