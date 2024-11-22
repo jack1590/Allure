@@ -8,7 +8,7 @@ const Location = () => {
             <div className="location-content">
                 <p>La Feria Allure es el evento de lujo más esperado del año, que reúne moda, entretenimiento y gastronomía en un entorno exclusivo en el Salón Santa Fe del Hotel Bogotá Plaza. Con la asistencia de importantes figuras del lujo, busca posicionarse como un referente en la industria.</p>
                 <p>Objetivo del Evento:</p>
-                <p>Reunir las principales marcas y diseñadores en una celebración que destaque el arte, la moda y la cultura del lujo, atrayendo a un público selecto de más de 100 invitados, incluyendo prensa e influencers de gran impacto.</p>
+                <p>Queremos reunir a las marcas y diseñadores más destacados en una celebración única que combine arte, moda y la esencia del lujo.</p>
                 <p>Aspectos Destacados:</p>
                 <ul>
                     <li>Asistirán más de 100 invitados</li>

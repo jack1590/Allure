@@ -10,8 +10,8 @@ const About = () => {
         <h2>Sobre Nosotros</h2>
         <div className="about-content">
           <div className="about-text">
-            <p>Bienvenidos a Allure, el evento de lujo que combina moda, gastronomía y entretenimiento en Bogotá, Colombia.</p>
-            <p>Nuestra misión es ofrecer una experiencia inolvidable donde el lujo y la exclusividad se unen para crear momentos mágicos. En Allure, descubrirás las últimas tendencias en moda, disfrutarás de la mejor gastronomía y vivirás experiencias de entretenimiento únicas.</p>
+            <p>¡Bienvenidos a Allure!, El evento que combina moda, gastronomía y entretenimiento para ofrecerte una experiencia única en Bogotá, Colombia.</p>
+            <p>En Allure queremos que vivas momentos inolvidables donde el lujo y la exclusividad se fusionan para sorprenderte. Aquí podrás descubrir las últimas tendencias en moda, disfrutar de platillos increíbles y dejarte llevar por experiencias de entretenimiento únicas que hemos preparado para ti.</p>
           </div>
           <div className="about-images">
             <div className="image-container">

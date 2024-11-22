@@ -9,9 +9,9 @@ const images = [gastronomy1, gastronomy2, gastronomy3];
 const Gastronomy = () => {
     return (
         <section id="gastronomy" className="gastronomy">
-            <h2>Gastronomía</h2>
+            <h2>Un viaje gastronómico de lujo</h2>
             <div className="gastronomy-content">
-                <p>En la Feria Allure, la gastronomía es una experiencia de lujo que deleitará todos tus sentidos. Disfruta de una selección exclusiva de platos gourmet preparados por chefs de renombre, quienes te llevarán en un viaje culinario a través de sabores exquisitos y presentaciones impecables. Desde degustaciones de alta cocina hasta maridajes con vinos y licores premium, cada bocado será una celebración del arte culinario.</p>
+                <p>La gastronomía en Allure no es solo comida, es una experiencia. Te ofrecemos una selección gourmet de platos creados por chefs reconocidos, que te llevarán a descubrir sabores exquisitos y presentaciones impecables. Desde degustaciones de alta cocina hasta maridajes con vinos y licores premium, cada bocado será una celebración del arte culinario.</p>
                 <div className="gastronomy-images">
                     {images.map((image, index) => (
                         <div key={index} className="gastronomy-image-container">

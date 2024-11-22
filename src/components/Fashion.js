@@ -12,8 +12,8 @@ const Fashion = () => {
             <h2>Moda</h2>
             <div className="fashion-content">
                 <div className="fashion-text">
-                    <h3>Diseñadores Destacados</h3>
-                    <p>Allure contará con la participación de algunos de los diseñadores más influyentes de la industria. Entre ellos se encuentran:</p>
+                    <h3>Diseñadores que inspiran</h3>
+                    <p>En Allure contaremos con la participación de grandes talentos de la moda que marcan tendencia:</p>
                     <ul>
                         <li><strong>María García:</strong> Conocida por su estilo innovador y su habilidad para mezclar lo clásico con lo moderno.</li>
                         <li><strong>Carlos Pérez:</strong> Famoso por sus elegantes trajes de noche y su impecable atención al detalle.</li>
@@ -21,12 +21,12 @@ const Fashion = () => {
                     </ul>
                 </div>
                 <div className="fashion-text">
-                    <h3>Pasarelas y Exhibiciones</h3>
-                    <p>Durante el evento, se llevarán a cabo varias pasarelas donde los diseñadores mostrarán sus últimas colecciones. También habrá exhibiciones interactivas donde los asistentes podrán conocer más sobre el proceso creativo y la inspiración detrás de cada colección.</p>
+                    <h3>Pasarelas y algo más</h3>
+                    <p>Prepárate para disfrutar de desfiles espectaculares donde los diseñadores mostrarán sus colecciones más recientes. Además, podrás explorar exhibiciones interactivas que te llevarán detrás de cada diseño, para entender de cerca el proceso creativo y las inspiraciones de los artistas.</p>
                 </div>
                 <div className="fashion-text">
-                    <h3>Experiencia VIP</h3>
-                    <p>Los asistentes VIP tendrán acceso exclusivo a áreas detrás de escena, donde podrán conocer a los diseñadores y obtener una visión más profunda de la industria de la moda. También habrá eventos especiales, como sesiones de fotos y entrevistas con figuras clave de la moda.</p>
+                    <h3>Un toque VIP</h3>
+                    <p>Si buscas algo más exclusivo, nuestra experiencia VIP es para ti. Podrás acceder a las áreas detrás de escena, conocer a los diseñadores en persona y descubrir los secretos de la industria. Además, habrá sesiones de fotos y encuentros especiales con figuras importantes de la moda.</p>
                 </div>
             </div>
             <div className="fashion-images">
